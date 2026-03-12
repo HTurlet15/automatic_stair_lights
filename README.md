@@ -43,9 +43,11 @@ sensors.
 | Component | Description |
 |-----------|-------------|
 | ESP32 | Main microcontroller |
-| PIR sensor (×2) | Passive infrared motion detection |
-| LED strip | TBD |
-| ... | ... |
+| PIR HC-SR501 (×2) | Passive infrared motion detection |
+| LED strip — warm white 12V | Indirect lighting under each step |
+| MOSFET IRLZ44N | High-current driver for the LED strip |
+| 12V 3A wall adapter | Main power supply |
+| 7805 linear regulator | Steps 12V down to 5V for ESP32 and sensors |
 
 → Full hardware rationale in [`docs/hardware.md`](docs/hardware.md)
 
