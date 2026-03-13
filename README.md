@@ -40,16 +40,17 @@ sensors.
 
 ## Hardware
 
-| Component | Description |
-|-----------|-------------|
+| Component | Role |
+|-----------|------|
 | ESP32 | Main microcontroller |
-| PIR HC-SR501 (×2) | Passive infrared motion detection |
-| LED strip — warm white 12V | Indirect lighting under each step |
+| HC-SR501 PIR (×2) | Motion detection — top and bottom of staircase |
 | MOSFET IRLZ44N | High-current driver for the LED strip |
+| L7805CV regulator | Steps 12V down to 5V for ESP32 and sensors |
 | 12V 3A wall adapter | Main power supply |
-| 7805 linear regulator | Steps 12V down to 5V for ESP32 and sensors |
+| Warm white LED strip 3000K (×2) | Indirect lighting under each step |
+| AWG22 wire - 20m | PIR to main enclosure + inter-step runs |
 
-→ Full hardware rationale in [`docs/hardware.md`](docs/hardware.md)
+→ Full component list and rationale in [`docs/hardware.md`](docs/hardware.md)
 
 ---
 
