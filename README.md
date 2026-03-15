@@ -43,10 +43,10 @@ sensors.
 | Component | Role |
 |-----------|------|
 | ESP32 | Main microcontroller |
-| HC-SR501 PIR (×2) | Motion detection — top and bottom of staircase |
+| HC-SR501 PIR (×2) | Motion detection - top and bottom of staircase |
 | MOSFET IRLZ44N | High-current driver for the LED strip |
 | L7805CV regulator | Steps 12V down to 5V for ESP32 and sensors |
-| 12V 3A wall adapter | Main power supply |
+| 12V 5A wall adapter | Main power supply |
 | Warm white LED strip 3000K (×2) | Indirect lighting under each step |
 | AWG22 wire - 20m | PIR to main enclosure + inter-step runs |
 

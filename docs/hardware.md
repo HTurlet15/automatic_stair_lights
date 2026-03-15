@@ -8,7 +8,7 @@
 | HC-SR501 PIR | 2 | ~3$ | Motion detection |
 | MOSFET IRLZ44N | 1 | ~1$ | High-current driver for LED strip |
 | L7805CV regulator | 1 | ~1$ | Steps 12V down to 5V |
-| 12V 3A wall adapter | 1 | ~13$ | Main power supply |
+| 12V 5A wall adapter | 1 | ~13$ | Main power supply |
 | Warm white LED strip 3000K | 2 | ~15$ | Indirect lighting under each step |
 | Clipper connectors 2-pin 10mm | 20 | ~10$ | Inter-step LED connections |
 | AWG22 wire - 20m | 1 | ~4$ | PIR to enclosure + inter-step runs |
@@ -107,9 +107,9 @@ with 3.3V logic - many MOSFETs require 5V or more to switch fully on.
 
 ---
 
-### Power Supply - 12V 3A + L7805 Regulator
+### Power Supply - 12V 5A + L7805 Regulator
 
-A single 12V 3A wall adapter powers the entire system: one mains cable, one
+A single 12V 5A wall adapter powers the entire system: one mains cable, one
 shared ground reference across all components.
 
 The L7805 linear regulator steps 12V down to a stable 5V rail for the ESP32
